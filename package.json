@@ -1,5 +1,5 @@
 {
-  "name": "cotd",
+  "name": "seafood-store",
   "version": "0.0.3",
   "private": true,
   "devDependencies": {
@@ -9,6 +9,7 @@
   "dependencies": {
     "autoprefixer-stylus": "0.14.0",
     "firebase": "^7.6.0",
+    "node": "14.2.0",
     "prop-types": "^15.6.0",
     "re-base": "4.0.0",
     "react": "^16.6.3",
@@ -28,9 +29,7 @@
     "now-build": "npm run build && mv build dist",
     "styles:watch": "npm run styles -- -w"
   },
-  "browserslist": [
-    ">0.2%",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  "browserslist": [">0.2%", "not ie <= 11", "not op_mini all"],
+  "keywords": [],
+  "description": "React-For-Beginners-Starter-Files"
 }
