@@ -1,9 +1,15 @@
 import React from "react";
-import StorePicker from "./components/StorePicker";
+import HomePage from "./components/HomePgae";
+
+import "./css/style.css";
 
 class App extends React.Component {
   render() {
-    return <StorePicker />;
+    return (
+      <React.Fragment>
+        <HomePage />
+      </React.Fragment>
+    );
   }
 }
 
