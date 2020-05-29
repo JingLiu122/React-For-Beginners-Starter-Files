@@ -21,6 +21,8 @@ class HomePage extends Component {
     // 3. set the new fishes object to state
     this.setState({ fishes });
   };
+
+class HomePage extends Component {
   render() {
     return (
       <div className="catch-of-the-day">
