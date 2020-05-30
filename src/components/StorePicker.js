@@ -33,4 +33,3 @@ export default class StorePicker extends Component {
     );
   }
 }
-
