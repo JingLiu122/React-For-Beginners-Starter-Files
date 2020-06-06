@@ -1,8 +1,6 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import HomePage from "./components/HomePgae";
-import StorePicker from "./components/StorePicker";
-import { NotFound } from "./components/NotFound";
+import { HomePage, StorePicker, NotFound } from "./pages";
 
 import "./css/style.css";
 

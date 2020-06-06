@@ -1,10 +1,10 @@
 import React from "react";
 
-import { formatPrice } from "../helpers";
+import { formatPrice } from "../utils/helpers";
 
-class Fish extends React.Component {
+export class Fish extends React.Component {
   render() {
-    const { image, name, price, desc, status } = this.props.details;
+    const { name, price, desc, status, image } = this.props.details;
     const isAvailable = status === "available";
     return (
       <li className="menu-fish">
@@ -25,4 +25,3 @@ class Fish extends React.Component {
   }
 }
 
-export default Fish;
